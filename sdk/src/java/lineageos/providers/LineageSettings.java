@@ -2875,6 +2875,12 @@ public final class LineageSettings {
         public static final String VIBRATE_ON_FP = "vibrate_on_fp";
 
         /**
+         * Only vibrate on fingerprint scanner for a successful scan
+         * @hide
+         */
+        public static final String VIBRATE_ON_FP_ONLYSUCCESS = "vibrate_on_fp_onlysuccess";
+
+        /**
          * Vibrator intensity setting for supported devices
          * @hide
          */
